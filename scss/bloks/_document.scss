@@ -1,0 +1,48 @@
+.document {
+    background-image: url(../../img/love.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &::after{
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: azure;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        opacity: .7;
+    }
+}
+
+.document__container {
+ padding-top: 30px;
+ padding-bottom: 10px;
+}
+.document__name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    z-index: 2;
+    color: #3A3C3B;
+}
+.document__list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.document__item {
+    width: 280px;
+    z-index: 2;
+}
+@media screen and (max-width:  $mobile) {
+  .document__item{
+      margin: 0 auto;
+  }
+}

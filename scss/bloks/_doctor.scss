@@ -1,0 +1,43 @@
+.doctor__container{
+    background-color: rgb(35, 199, 62);
+    padding: 40px;
+    padding-top: 60px;
+margin-top: 80px;
+position: relative;
+padding-bottom: 62px;
+}
+.doctor__title{
+    font-size: 36px;
+    width: 700px;
+    margin: 0;
+    margin-bottom: 30px;
+color: white;
+}
+.tanlov__span{
+    color: rgb(35, 199, 62);
+    background-color: antiquewhite;
+}
+.doctor__form{
+    margin-top: 80px;
+}
+.doctor__img{
+    position: absolute;
+    top: -50px;
+    right: 70px;
+width: 350px;
+height: 400px;
+}
+@media screen and (max-width:  $mobile) {
+  .doctor__container{
+      padding-top: 300px;
+  }
+    .doctor__title{
+      font-size: 24px;
+      width: 280px;
+  }
+  .doctor__img{
+      width: 250px;
+      height: 320px;
+  }
+  
+}

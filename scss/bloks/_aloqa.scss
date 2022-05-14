@@ -1,0 +1,66 @@
+.aloqa__body{
+    display: flex;
+    padding-bottom: 30px;
+}
+.aloqa__name{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    z-index: 2;
+    color: #3A3C3B;
+}
+.aloqa__content{
+    width: 50%;
+}
+.aloqa__text{
+    width: 500px;
+}
+.aloqa__form{
+    background-color: rgb(209, 203, 203);
+    border-radius: 10px;
+    width: 50%;
+    padding: 40px;
+}
+.aloqa__input{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.aloqa__btn{
+    display: block;
+    width: 60%;
+margin-top: 25px;
+text-align: center;
+margin-left: 100px;
+opacity: 0.3;
+cursor: no-drop;
+&:hover{
+    background-color: red;
+    color: white;
+}
+}
+.aloqa__chek:checked ~ .aloqa__btn{
+   opacity: 1;
+   cursor: pointer;
+   &:hover{
+       background: transparent;
+       color: red;
+   }
+}
+@media screen and (max-width:  $mobile) {
+  .aloqa__body{
+      flex-direction: column;
+  }
+.aloqa__content{
+    width: 100%;
+}
+.aloqa__text{
+    width: 280px;
+}
+.aloqa__form{
+    width: 100%;
+}
+}

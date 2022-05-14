@@ -1,0 +1,52 @@
+.raboto__container{
+    background-color: #F3F3F3;
+    margin-top: 50px;
+    padding-top: 30px;
+    
+}
+.raboto{
+    background-color: #F3F3F3;
+}
+.roboto__name{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #3A3C3B;
+
+}
+.roboto__list{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+.roboto__item{
+   display: flex;
+   align-items: center;
+   margin-bottom: 40px;
+}
+.roboto__img{
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.roboto__text{
+    width: 400px;
+    margin-left: 20px;
+}
+@media screen and (max-width:  $mobile) {
+  .roboto__item{
+      flex-direction: column;
+  }
+  .roboto__text{
+    text-align: center;
+      width: 280px;
+  }
+  .roboto__img{
+      width: 120px;
+      height: 120px;
+  }
+}

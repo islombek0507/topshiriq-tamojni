@@ -1,0 +1,66 @@
+.tanlov__container{
+padding-top: 50px;
+}
+.tanlov__name{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    
+    color: #3A3C3B;
+}
+.tanlov__list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+   padding-top: 50px;
+
+}
+
+.tanlov__item {
+    width: 225px;
+    text-align: center;
+    transition: .5s ease all;
+    &:hover .tanlov__img{
+        transform: rotate(90deg);
+        // transform: scale(1.2)
+    }
+}
+.tanlov__img {
+}
+.tanlov__title {
+    font-weight: 700;
+font-size: 16px;
+line-height: 110.5%;
+/* identical to box height, or 18px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #3A3C3B;
+}
+.tanlov__text {
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 110.5%;
+/* or 18px */
+
+text-align: center;
+
+color: #3A3C3B;
+}
+@media screen and (max-width:  $mobile) {
+  .tanlov__list{
+      margin: 0 auto;
+  }
+  .tanlov__item{
+      margin: 0 auto;
+  }
+  .tanlov__img{
+      width: 120px;
+      height: 120px;
+  }
+}

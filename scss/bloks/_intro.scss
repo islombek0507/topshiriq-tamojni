@@ -1,0 +1,71 @@
+.intro {
+    background-image: url(../../img/intro-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+z-index: 2;
+    &::before{
+        content: "";
+        display: block;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        background-color: rgb(107, 135, 160);
+        z-index: -1;
+        opacity: .5;
+    }
+}
+.intro__container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.intro__text {
+    font-style: inherit;
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 20px;
+    // width: 680px;
+  border-spacing: 50px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  word-spacing: 12px;
+}
+.intro__text-red {
+    color: red;
+   
+    
+}
+.intro__list {
+    padding: 0;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.intro__item {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.intro__form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(37, 31, 31);
+    width: 600px;
+    padding: 15px 30px;
+}
+.intro__zayafka{
+ color: white;
+ font-size: 18px;
+}
+@media screen and (max-width:  $mobile) {
+  .intro__form{
+      width: 280px;
+      flex-direction: column;
+  }
+  .intro__text{
+      font-size: 30px;
+      width: 250px;
+  }
+}
