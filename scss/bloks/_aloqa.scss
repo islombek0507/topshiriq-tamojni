@@ -12,15 +12,16 @@
 }
 .aloqa__content{
     width: 50%;
+    padding: 30px;
 }
 .aloqa__text{
-    width: 500px;
+    width: 450px;
 }
 .aloqa__form{
     background-color: rgb(209, 203, 203);
     border-radius: 10px;
     width: 50%;
-    padding: 40px;
+    padding: 60px;
 }
 .aloqa__input{
     width: 100%;
@@ -30,13 +31,16 @@
     text-align: center;
 }
 .aloqa__btn{
+    width: 150px;
     display: block;
     width: 60%;
 margin-top: 25px;
 text-align: center;
-margin-left: 100px;
+margin-left: 80px;
 opacity: 0.3;
 cursor: no-drop;
+margin: 0 auto;
+padding-right: 15px;
 &:hover{
     background-color: red;
     color: white;

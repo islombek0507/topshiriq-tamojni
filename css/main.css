@@ -131,12 +131,14 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 15px;
 }
 
 .header__img-logo {
   margin-right: 10px;
   -o-object-fit: cover;
      object-fit: cover;
+  margin-top: 10px;
 }
 
 .header__logo {
@@ -649,6 +651,10 @@ a {
     width: 250px;
     height: 320px;
   }
+  .form__btn--doc {
+    display: block;
+    margin-top: 10px;
+  }
 }
 
 .raboto__container {
@@ -696,9 +702,17 @@ a {
   margin-bottom: 40px;
 }
 
+.roboto__img--div {
+  border-radius: 50%;
+  border: 3px solid red;
+  width: 154px;
+  height: 154px;
+}
+
 .roboto__img {
   border-radius: 50%;
-  border: 2px solid red;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 .roboto__text {
@@ -836,17 +850,18 @@ a {
 
 .aloqa__content {
   width: 50%;
+  padding: 30px;
 }
 
 .aloqa__text {
-  width: 500px;
+  width: 450px;
 }
 
 .aloqa__form {
   background-color: #d1cbcb;
   border-radius: 10px;
   width: 50%;
-  padding: 40px;
+  padding: 60px;
 }
 
 .aloqa__input {
@@ -858,13 +873,16 @@ a {
 }
 
 .aloqa__btn {
+  width: 150px;
   display: block;
   width: 60%;
   margin-top: 25px;
   text-align: center;
-  margin-left: 100px;
+  margin-left: 80px;
   opacity: 0.3;
   cursor: no-drop;
+  margin: 0 auto;
+  padding-right: 15px;
 }
 
 .aloqa__btn:hover {
@@ -919,7 +937,7 @@ a {
 }
 
 .footer__container {
-  width: 1300px;
+  max-width: 1400px;
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -933,18 +951,47 @@ a {
 }
 
 .footer__bir {
-  width: 180px;
+  width: 120px;
   z-index: 2;
+  margin: 0;
+  margin-left: -80px;
+}
+
+.footer__title {
+  width: 130px;
+  color: white;
+  z-index: 2;
+  margin: 0;
+  font-size: 16px;
+}
+
+.footer__bir p {
+  font-size: 12px;
+}
+
+.footer__aloqa {
+  width: 300px;
+  text-align: center;
+  margin-left: -50px;
 }
 
 .footer__img {
   z-index: 2;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 30px;
 }
 
 .footer__name {
   z-index: 2;
-  font-size: 24px;
-  width: 150px;
+  font-size: 18px;
+}
+
+.footer__num {
+  width: 200px;
+  display: block;
+  font-size: 20px;
+  color: red;
 }
 
 @media screen and (max-width: 719px) {
@@ -955,9 +1002,10 @@ a {
     width: 320px;
   }
   .footer__img {
-    width: 100px;
-    height: 80px;
-    margin-top: 40px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 0px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -22,17 +22,22 @@
     display: flex;
     // border: 1px solid black;
     justify-content: space-between;
+    padding-top: 15px;
 }
 .header__img-logo{
     margin-right: 10px;
     object-fit: cover;
+    margin-top: 10px;
 }
 .header__logo {
     display: flex;
     
+    
 }
 .header__logo-text {
     font-size: 32px;
+    
+
 }
 .header__span {
     font-size: 12px;

@@ -29,9 +29,16 @@
    align-items: center;
    margin-bottom: 40px;
 }
+.roboto__img--div{
+    border-radius: 50%;
+    border: 3px solid red;
+    width: 154px;
+    height: 154px;
+}
 .roboto__img{
     border-radius: 50%;
-    border: 2px solid red;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 .roboto__text{
     width: 400px;
